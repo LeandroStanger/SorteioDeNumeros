@@ -86,21 +86,6 @@ Se desejar modificar o projeto:
 
 - O projeto é totalmente estático, não requer servidor back-end.
 - Funciona perfeitamente hospedado em **GitHub Pages**.
-- A versão atual é a **1.0.1** (conforme o último commit).
-
-## 🐛 Possíveis Problemas Conhecidos
-
-- **Entrada inválida**: Se o usuário inserir um valor não numérico ou negativo, o sorteio pode não funcionar como esperado (é recomendável adicionar validação robusta).
-- **Limite não definido**: Caso o campo esteja vazio, pode não haver sorteio (espera-se que a lógica trate esse caso).
-
-## 📈 Melhorias Futuras (Sugestões)
-
-1. **Sorteio de múltiplos números**: Permitir escolher quantos números sortear.
-2. **Intervalo personalizado**: Definir mínimo e máximo separadamente.
-3. **Histórico de sorteios**: Mostrar os últimos números sorteados.
-4. **Animação de sorteio**: Adicionar efeito visual de "roleta" antes de revelar o número.
-5. **Compartilhamento**: Botão para copiar o resultado para a área de transferência.
-6. **Validação aprimorada**: Mensagens claras para entradas inválidas.
 
 ## 👤 Autor
 
