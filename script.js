@@ -14,6 +14,6 @@ sortearBtn.addEventListener("click", () => {
 
     let valorDigitado = parseInt(numero.value, 10);
 
-    let sorteio = Math.floor(Math.random() * (valorDigitado + 1 || 100));
+    let sorteio = Math.floor(Math.random() * (valorDigitado + 1 || 100 + 1));
     outputEl.textContent = sorteio;
 })
